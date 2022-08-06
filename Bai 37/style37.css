@@ -37,7 +37,7 @@
     border-left: 4px solid;
     box-shadow: 0 5px 8px rgba(0,0,0,0.1);
     padding: 15px 0;
-    animation: slideInleft ease .4s, fadeOut linear 1s 3s forwards;
+    
 }
 @keyframes slideInleft {
     from{
