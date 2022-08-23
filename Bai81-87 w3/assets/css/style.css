@@ -1,0 +1,50 @@
+/* Resset Css */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* 1 Vị trí 
+   2 Kích Thướng
+   3 Màu sắc
+   4 Kiểu dáng ( kiểu chứ hình tròn hình vuông*/
+
+
+#header {
+    height: 46px;
+    background-color: black;
+}
+#nav {
+
+}
+#nav li {
+    display: inline-block;
+}
+#nav li a {
+    color:#FFF;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    display: inline-block;
+}
+#nav li:hover a {
+    background-color: #ccc;
+    color: black;
+}
+#nav .subnav {
+    display: none;
+}
+
+#slider {
+
+}
+#content {
+
+}
+#footer {
+
+}
