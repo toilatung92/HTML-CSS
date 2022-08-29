@@ -19,7 +19,22 @@ Những điều cần biết trước khi css một thẻ:
 .clear{
     clear: both;
 }
+.row {
+    margin-left: -8px;
+    margin-right: -8px;
 
+}
+.col {
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.col-third {
+    width: calc(100%/3);
+}
+.text-center {
+    text-align: center !important;
+}
 .wrapper{
 
 }
@@ -107,7 +122,7 @@ li:hover .subnav{
 .slide{
     margin-top: 46px;
     padding-top: 50%;
-    background: url('./img/la.jpg') top center / cover no-repeat;
+    background: url('/HTML/Bai90-95/assets/img/la.jpg') top center / cover no-repeat;
     position: relative;;
 }
 .text-content{
@@ -164,8 +179,7 @@ li:hover .subnav{
     margin: 32px 0;
 }
 .memberlist{
-    float: left;
-    width: calc(100% / 3);
+    
     text-align: center;
 }
 .member-name{
@@ -216,14 +230,12 @@ li:hover .subnav{
 }
 
 .place-list{
-    margin: 32px -8px 0;
+    
     padding-bottom: 32px;
+    margin-top: 48px;
+    margin-bottom: 32px;
 }
-.place-item{
-    float: left;
-    width: calc(100%/3);
-    padding: 0 8px;
-}
+
 .place-img{
     width: 100%;
     display: block;
@@ -270,7 +282,7 @@ li:hover .subnav{
     left: 0;
     right: 0;
     background-color: rgba(0,0,0,0.4);
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
 }
